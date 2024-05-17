@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Fontes Externas</title>
+<style>
+    @font-face {
+        font-family: 'love';
+        src: url(fonts/filxgirl.TTF) format(truetype), url(filxgirl.OTF) format(opentype);
+        font-weight: normal;
+        font-style: normal;
+
+        /*
+        tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embeded-opentype
+        - truetype-att (apple advanced typography)
+        - svg
+        */
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        font-family: 'love', Times, serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+</style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit non fugit cum, eaque iste quas eius ipsa voluptates unde quibusdam recusandae consequatur dignissimos, dicta debitis accusamus modi harum! Molestiae.</p>
+
+</body>
+</html>
