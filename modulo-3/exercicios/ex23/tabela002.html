@@ -19,6 +19,12 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
@@ -33,6 +39,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+        CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -41,10 +48,13 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>
+            <strong>População das Unidades Federativas</strong>
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -101,53 +111,53 @@
                 <td class="num">45 919 049</td>
             </tr>
             <tr>
-                    <td>Minas Gerais</td>
+                <td>Minas Gerais</td>
                     <td class="num">21 168 791</td>
             </tr>
             <tr>
-                    <td>Rio de Janeiro</td>
-                    <td class="num">17 264 943</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
             </tr>
             <tr>
-                    <td>São Paulo</td>
-                    <td class="num">45 919 049</td>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
             </tr>
             <tr>
-                    <td>Minas Gerais</td>
-                    <td class="num">21 168 791</td>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
             </tr>
             <tr>
-                    <td>Rio de Janeiro</td>
-                    <td class="num">17 264 943</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
             </tr>
             <tr>
-                    <td>São Paulo</td>
-                    <td class="num">45 919 049</td>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
             </tr>
             <tr>
-                    <td>Minas Gerais</td>
-                    <td class="num">21 168 791</td>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
             </tr>
             <tr>
-                    <td>Rio de Janeiro</td>
-                    <td class="num">17 264 943</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
             </tr>
             <tr>
-                    <td>São Paulo</td>
-                    <td class="num">45 919 049</td>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
             </tr>
             <tr>
-                    <td>Minas Gerais</td>
-                    <td class="num">21 168 791</td>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
             </tr>
             <tr>
-                    <td>Rio de Janeiro</td>
-                    <td class="num">17 264 943</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>213 7525 25</strong></td>
 
             </tr>
