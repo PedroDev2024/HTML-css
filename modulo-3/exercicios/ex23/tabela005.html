@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        
+        col.cnome{
+            background-color: aquamarine;
+        }
+        col.csexo{
+            background-color: burlywood;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana MAria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Professor</td>
+        </tr>
+        <tr class="destaque">
+            <td>Claudia</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornaleiro</td>
+        </tr>
+        <tr>
+            <td>Claudiana</td>
+            <td>F</td>
+            <td>30</td>
+            <td>operaria</td>
+        </tr>
+        <tr>
+            <td>Fausto</td>
+            <td>M</td>
+            <td>20</td>
+            <td>estudante</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+    </table>
+</body>
+</html>
