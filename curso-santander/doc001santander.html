@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1> Formulario</h1>
+    <hr>
+    <br>
+
+    <form action="" method="get">
+        <div>
+            <label for="texto">Nome:</label>
+            <input type="text" id="texto" placeholder="Informe seu nome..." name="nome">
+        </div>
+
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+
+        <div>
+            <label for="Email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data" name="data">
+        </div>
+
+        <textarea name="bio" id="bio"></textarea>
+<br>
+        <div>
+            <select name="select" id="select">
+                <option value="" disabled selected>Selecione uma das opções</option>
+                <option value="receita">Receita</option>
+                <option value="despesa">Despesa</option>
+                <option value="tranferencia">Transferencia</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="qualquer"></label>
+            <input type="submit" id="qualquer" name="qualquer" >
+        </div>
+
+        
+    </form>
+
+</body>
+</html>
